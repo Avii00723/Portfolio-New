@@ -15,10 +15,10 @@ const PROJECTS = [
   },
   {
     num: '03',
-    title: 'Project Three',
-    desc: 'A third project entry — keep it to a sentence or two. Link it to the live site or repo when you have one.',
-    tags: ['Python', 'FastAPI', 'Docker'],
-    url: '#',
+    title: 'Lucid – Full-Stack Blogging Platform',
+    desc: 'A minimalist blogging platform built using Node.js, Express.js, EJS, and MongoDB. The application allows users to create and publish blog posts, view posts through a clean server-rendered interface, and manage blog content with MongoDB as the database.',
+    tags: ['Node Js', 'Express JS', 'Mongo DB'],
+    url: 'https://blogapp-n-seven.vercel.app/',
   },
 ]
 
