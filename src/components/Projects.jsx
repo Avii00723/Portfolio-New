@@ -2,8 +2,8 @@ const PROJECTS = [
   {
     num: '01',
     title: 'Jobify',
-    desc: ' A full‑stack job board and management app built with Next.js and TypeScript. Implemented authenticated CRUD for job postings (create/edit/delete), responsive UI and forms with Tailwind CSS, Prisma‑backed database with seeded data, job listing/detail pages, and analytics dashboards with charts.',
-    tags: ['Next.js', 'Supabase','Clerk'],
+    desc: 'A full‑stack job board and management app built with Next.js and TypeScript. Implemented authenticated CRUD for job postings (create/edit/delete), responsive UI and forms with Tailwind CSS, Prisma‑backed database with seeded data, job listing/detail pages, and analytics dashboards with charts.',
+    tags: ['Next.js', 'Supabase', 'Clerk'],
     url: 'https://jobify-j9xe0z09w-avii00723s-projects.vercel.app/',
   },
   {
@@ -19,6 +19,13 @@ const PROJECTS = [
     desc: 'A minimalist blogging platform built using Node.js, Express.js, EJS, and MongoDB. The application allows users to create and publish blog posts, view posts through a clean server-rendered interface, and manage blog content with MongoDB as the database.',
     tags: ['Node Js', 'Express JS', 'Mongo DB'],
     url: 'https://blogapp-n-seven.vercel.app/',
+  },
+  {
+    num: '04',
+    title: 'Classroom Dashboard',
+    desc: 'A full-stack classroom management dashboard. The frontend is built with React and TypeScript on Refine (a framework purpose-built for admin panels and dashboards), using shadcn/ui and Radix primitives, TanStack Table, and Recharts for admin, class, and subject management views. The backend is an Express/TypeScript API using Drizzle ORM against a serverless Neon Postgres database, Better-Auth for authentication, and Arcjet for request security and rate-limiting.',
+    tags: ['React', 'Refine', 'Express'],
+    url: 'https://github.com/Avii00723/classroom-dashboard-frontend',
   },
 ]
 
